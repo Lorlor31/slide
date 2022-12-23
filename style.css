@@ -1,0 +1,68 @@
+/* pourquoi je n'a rrive pas a faire des boutons tout ronds ?? 
+y a t il un probleme au biveau de la config de la taille ?? ou des marges ??
+cf les marges ne sont pzas de la meme rtaile ???
+*/
+
+
+colors{
+color : #e5989b  #ffb4a2 #b5838d #6d6875 #ffcdb2 ;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5989b; 
+}
+
+ h1{
+    font : Comic,  bold ;
+    color: rgb(0, 0, 0);
+}
+
+#cadreTitre, h2{
+    font :2rem bold , Arial;
+    text-align: center;
+
+}
+
+#cadrePhoto{
+    display: flex;
+    flex-direction: row;
+    justify-content :space-around;
+    align-items: center;
+    width: 500px;
+    height: auto ;
+    background-color: #ffb4a2 ;
+    border-radius: 5% 5% 0% 0% ;
+    
+}
+
+img { 
+    margin: 2%;
+    max-width: 50%;
+    border-radius: 15%;
+   
+}
+
+button{
+    
+    width : 40px ;
+    height: 40px;
+    padding: 2px ;
+    box-shadow: 2px 2px ;
+    border-radius: 50%;
+    background-color: #e6e6e6 ;
+    border: 1px solid black;
+ 
+}
+
+
+
+#cadreTitre{
+    width: 500px;
+    background-color: #b5838d ;
+    border-radius: 0% 0% 5% 5%  ;
+}
+
